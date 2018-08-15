@@ -4,7 +4,7 @@
 
 	<groupId>com.jinshiwu</groupId>
 	<artifactId>petclinic</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4-SNAPSHOT</version>
 	<modules>
 		<module>petclinic-data</module>
 		<module>petclinic-web</module>
