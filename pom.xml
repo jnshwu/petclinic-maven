@@ -49,7 +49,7 @@
 		</plugins>
 	</build>
 	<scm>
-		<developerConnection>scm:git:git@github.com/jnshwu/petclinic-maven.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:jnshwu/petclinic-maven.git</developerConnection>
 	</scm>
 
 </project>
