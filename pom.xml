@@ -4,14 +4,14 @@
 
 	<groupId>com.jinshiwu</groupId>
 	<artifactId>petclinic</artifactId>
-	<version>1.0.5-SNAPSHOT</version>
+	<version>1.0.6-SNAPSHOT</version>
 	<modules>
 		<module>petclinic-data</module>
 		<module>petclinic-web</module>
 	</modules>
 	<packaging>pom</packaging>
 
-	<name>petclinic</name>
+	<name>petclinic-maven</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -48,8 +48,9 @@
 			</plugin>
 		</plugins>
 	</build>
+
 	<scm>
 		<developerConnection>scm:git:git@github.com:jnshwu/petclinic-maven.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
-
 </project>
