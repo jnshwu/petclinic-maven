@@ -1,7 +1,5 @@
 package com.jinshiwu.petclinic.service;
 
-import com.jinshiwu.petclinic.model.Owner;
-
 import java.util.Set;
 
 /**
