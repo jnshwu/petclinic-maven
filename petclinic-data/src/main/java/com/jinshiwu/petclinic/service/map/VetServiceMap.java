@@ -2,13 +2,16 @@ package com.jinshiwu.petclinic.service.map;
 
 import com.jinshiwu.petclinic.model.Vet;
 import com.jinshiwu.petclinic.service.CrudService;
+import com.jinshiwu.petclinic.service.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 /**
  * Created by EL on 8/26/18.
  */
-public class VetServiceMap extends AbstractMapService <Vet, Long> implements CrudService <Vet, Long> {
+@Service
+public class VetServiceMap extends AbstractMapService <Vet, Long> implements VetService {
     @Override
     public Vet findById(Long id) {
         return super.findById(id);

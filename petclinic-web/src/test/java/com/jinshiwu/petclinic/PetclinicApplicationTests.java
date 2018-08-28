@@ -1,4 +1,4 @@
-package com.jinshiwu;
+package com.jinshiwu.petclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
